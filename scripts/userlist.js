@@ -9,7 +9,7 @@ function mostrarLista() {
       let elements = `<li class="w-100 my-3">
         <div class="d-flex align-items-center user-div">
           <div style="height: 100px; margin: 20px">
-            <img src="${puntero.value.pfp}" class="h-100" />
+            <img src="..${puntero.value.pfp}" class="h-100" />
           </div>
           <div class="d-flex flex-column user-info p-3">
             <h4>${puntero.value.username}</h4>
