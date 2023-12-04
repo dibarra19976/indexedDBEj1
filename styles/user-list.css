@@ -1,0 +1,17 @@
+li ul div {
+    border-radius: 10px !important;
+}
+
+.user-info{
+    font-weight: 700 !important; 
+}
+
+.user-info span{
+    font-weight: 400 !important; 
+}
+
+.user-div{
+    background-color: white;
+    border-radius: 20px !important;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.05);
+}

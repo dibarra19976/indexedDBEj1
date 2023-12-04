@@ -1,0 +1,81 @@
+body {
+  background-color: #f1f2f8;
+}
+.content .article-header h1 {
+  font-family: "Gabarito", sans-serif;
+  font-weight: 700;
+  margin-right: 10px;
+}
+.content .article-header .icons div {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.content .article-header .icons p {
+  font-family: "Gabarito", sans-serif !important;
+  font-size: 15pt;
+}
+.content .article-header .user {
+  font-family: "Gabarito", sans-serif;
+  font-size: 16pt;
+}
+.content .article-header .user .user-link {
+  text-decoration: none;
+}
+.content .user-link {
+  color: #563c80;
+  transition: 0.2s;
+}
+.content .user-link:hover {
+  color: #92499c;
+}
+.content .article-content {
+  font-family: "Lato", sans-serif;
+}
+.content .article-content figure {
+  margin-inline: 10px;
+}
+.content .article-content p {
+  font-size: 13pt;
+}
+.content .article-content p::selection {
+  background-color: #e3cbe7;
+}
+.content .article-content p::-moz-selection {
+  background-color: #e3cbe7;
+}
+.content .article-content p .article-link {
+  color: #563c80;
+  transition: 0.2s;
+  color: #356aa7;
+}
+.content .article-content p .article-link::selection {
+  background-color: #e3cbe7;
+}
+.content .article-content p .article-link::-moz-selection {
+  background-color: #e3cbe7;
+}
+.content .article-content p .article-link:hover {
+  color: #92499c;
+}
+.content .article-content p .article-link:hover {
+  color: #bfdcfd;
+}
+.content .section-selector::selection {
+  background-color: #e3cbe7;
+}
+.content .section-selector::-moz-selection {
+  background-color: #e3cbe7;
+}
+.content h4 {
+  font-family: "Gabarito", sans-serif;
+  color: #92499c;
+}
+.content .favorite-section {
+  background-color: #bfbfbf;
+}
+.content .favorite-section::selection {
+  background-color: #e3cbe7;
+}
+.content .favorite-section::-moz-selection {
+  background-color: #e3cbe7;
+}

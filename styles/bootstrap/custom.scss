@@ -1,0 +1,32 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+$background: #f1f2f8;
+$primary: #563c80 ; 
+$secondary: #e3cbe7 ;
+$secondary-lighter: #f1e5f3;
+$accent: #92499c;
+$info: #356aa7;
+$success: #27ae60; 
+$warning: rgb(243, 161, 18); 
+$danger: #f3126c; 
+$light: #f1f2f8; 
+$dark: #080911 ; 
+$primary-light: #85C1E9; 
+
+$font-family-sans-serif: "Gabarito", sans-serif;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "danger": $danger,
+  "success": $success,
+  "warning": $warning,
+  "light": $light,
+  "info" : $info,
+  "dark": $dark
+);
+
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";

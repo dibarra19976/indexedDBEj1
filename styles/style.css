@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900");
+/* .bg-primary {
+  background-color: #563c80 !important;
+} */
+
+
+.navb {
+  color: #f1f2f8;
+  font-family: "Gabarito", sans-serif !important;
+  font-size: 14pt !important;
+}
+
+.searchbar {
+  border-radius: 15px;
+}
+
+.searchbarInside {
+  background-color: #f1e5f3 !important;
+  border-radius: 10px;
+}
+
+.logo {
+  height: auto;
+  width: 4em;
+}
+
+li {
+  float: left;
+  list-style: none;
+  transition: 0.1s !important;
+}
+
+
+
+.transparent-input {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border: none !important;
+}
+
+.btn {
+  background-color: #92499c !important;
+  border-radius: 30px !important;
+  color: #f1f2f8 !important;
+  font-size: 12pt !important;
+  transition: 0.1s !important;
+}
+
+.btn:hover {
+  background-color: #f1e5f3 !important;
+  color: #70727c !important;
+}
+
+input[type="text"]:focus {
+  box-shadow: inset 0 -1px 0 #ddd !important;
+}
+
+.filter-primary {
+  filter: invert(25%) sepia(17%) saturate(1917%) hue-rotate(221deg)
+    brightness(97%) contrast(91%);
+  transition: 0.1s;
+}
+
+.btn-img {
+  background: url(../ico/download.svg) no-repeat scroll 7px 7px;
+  background-position: center;
+}
+
+.filter-secondary {
+  filter: invert(88%) sepia(11%) saturate(201%) hue-rotate(246deg)
+    brightness(104%) contrast(92%);
+}
+.filter-primary:hover {
+  filter: invert(88%) sepia(11%) saturate(201%) hue-rotate(246deg)
+    brightness(104%) contrast(92%);
+}
+
+.filter-secondary:hover {
+  filter: invert(96%) sepia(8%) saturate(93%) hue-rotate(194deg) brightness(96%)
+    contrast(104%);
+}
+
+/* p {
+  font-family: "Lato", sans-serif !important;
+  color: #080911 !important;
+} */
+
+.dropdown-menu {
+  font-family: "Gabarito", sans-serif !important;
+  font-size: 12pt !important;
+  background-color: #f1f2f8 !important;
+  border: 1px solid #563c80 !important;
+}
+
+input[type="checkbox"] {
+  border-radius: 5px !important;
+  border-color: #e3cbe7 !important;
+  transition: 0.1s;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #92499c !important;
+}
+input[type="checkbox"]:hover:checked {
+  background-color: #e3cbe7 !important;
+}
+
+input[type="checkbox"]:focus {
+  box-shadow: inset 0 -1px 0 #ddd !important;
+}
+
+.dropdown-item:active {
+  background-color: #e3cbe7 !important;
+}
+
+.article-card h1 {
+  font-family: "Gabarito", sans-serif !important;
+  font-weight: 900;
+  font-size: 22pt;
+}
+
+.article-card h5 {
+  font-family: "Gabarito", sans-serif !important;
+  font-weight: 300;
+}
+.card-content {
+  background-color: #e3cbe7 !important;
+  border: 1px solid #080911 !important ;
+}
+
+.continue {
+  background-color: #92499c !important;
+  color: #e3cbe7 !important;
+  border: 1px solid #080911 !important ;
+  font-family: "Gabarito", sans-serif !important;
+  font-weight: 400;
+  transition: 0.1s !important;
+}
+
+.continue:hover {
+  font-weight: 800 !important;
+}
+
+@media (max-width: 768px) {
+  .card-content {
+    background-image: url(../img/1366_2000.jpg) !important;
+    color: #f1f2f8 !important;
+    filter: grayscale(100%);
+  }
+
+  .card-content p {
+    color: #f1f2f8 !important;
+  }
+  
+}
+
+.profile-pic {
+  border-radius: 100px !important;
+  bottom: -20px;
+  right: 30px;
+  height: 80px !important;
+  width: 80px !important;
+  background-color: #f1f2f8 !important;
+  border: 1px solid #080911 !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(../ico/account_circle_FILL1_wght400_GRAD200_opsz24.svg) ;
+}
+
+.btn a{
+  color: #f1f2f8 !important;;
+  font-style: normal;
+  text-decoration: none; 
+}
+
+.btn:hover a{
+  color: #70727c !important;
+
+}
+
+.content{
+  animation: fadeIn 0.5s ; 
+
+}
+/* CSS DEL EJERCICIO 1 DE LA UD 1 */
+
+
+
+@keyframes fadeIn {  
+  from {  
+      opacity:0;  
+  }  
+
+  to {  
+      opacity:1;  
+  }  
+}
+
+
+.btn-register{
+  background-color: #e3cbe7 !important;
+
+}
+
+.btn-register a{
+  color: #70727c !important;
+
+}
+
+.btn-register:hover {
+  background-color: #92499c !important;
+}
+
+
+.btn-register:hover a{
+  color: #f1f2f8 !important;
+}
+
+.link{
+  color: #080911;
+  text-decoration: none;
+}
+
+.link-navbar{
+  transition: 0.1s !important;
+  color:#f1f2f8;
+  text-decoration: none ;
+  
+}
+
+.link-navbar:hover {
+  color: #e3cbe7;
+}
